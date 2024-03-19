@@ -1,3 +1,4 @@
+# main.py
 import tkinter as tk
 import time
 from data import screenBounds
@@ -22,7 +23,7 @@ def main():
 
     # Start game loop
 
-    spf = 1/60
+    spf = 1 / 60
     lastLoop = time.time()
 
     while True:
